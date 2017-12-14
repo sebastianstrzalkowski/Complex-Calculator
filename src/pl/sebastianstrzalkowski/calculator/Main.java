@@ -19,7 +19,7 @@ public class Main extends Application {
                 ("controllers/fxml/Calculator.fxml"));
         Scene myScene = new Scene(myPane);
 
-        stage.setTitle("Kalkulator lcizb zespolonych");
+        stage.setTitle("Kalkulator liczb zespolonych");
         stage.setScene(myScene);
         stage.show();
     }

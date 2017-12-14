@@ -7,15 +7,15 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="233.0" prefWidth="517.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.sebastianstrzalkowski.calculator.controllers.Calculator">
    <children>
-      <TextField fx:id="fieldCalculate" layoutX="75.0" layoutY="99.0" />
-      <TextField fx:id="fieldResult" layoutX="274.0" layoutY="99.0" />
-      <Text layoutX="122.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Obliczenia" />
-      <Text layoutX="332.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wynik" />
+      <TextField fx:id="fieldCalculate" layoutX="14.0" layoutY="62.0" prefHeight="25.0" prefWidth="104.0" />
+      <TextField fx:id="fieldResult" layoutX="274.0" layoutY="62.0" />
+      <Text layoutX="98.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Obliczenia" />
+      <Text layoutX="332.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wynik" />
       <Button fx:id="calculateButton" layoutX="224.0" layoutY="194.0" mnemonicParsing="false" onAction="#calculateButton" text="Oblicz" />
-      <ComboBox fx:id="choseComboBox" layoutX="173.0" layoutY="131.0" onAction="#choseComboBox" prefWidth="150.0" />
+      <ComboBox fx:id="choseComboBox" layoutX="174.0" layoutY="131.0" onAction="#choseComboBox" prefWidth="150.0" />
       <RadioButton fx:id="radioPlot" layoutX="218.0" layoutY="165.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="60.0" text="Wykres" />
+      <TextField fx:id="fieldCalculate1" layoutX="135.0" layoutY="62.0" prefHeight="25.0" prefWidth="104.0" />
    </children>
 </AnchorPane>
